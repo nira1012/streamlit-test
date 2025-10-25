@@ -1,9 +1,5 @@
-streamlit
-matplotlib
-pandas
-seaborn
-numpy
-import pandas as pd
-import seaborn as sns
-
-df = sns.load_dataset("tips")  # simple sample dataset
+streamlit==1.38.0
+pandas==2.2.2
+matplotlib==3.8.4
+seaborn==0.13.2
+numpy==1.26.4
