@@ -34,3 +34,4 @@ ax.set_title(f"Sales by Product in {region}")
 plt.xticks(rotation=45)
 st.pyplot(fig)
 
+
