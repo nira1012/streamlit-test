@@ -4,9 +4,9 @@ import matplotlib.pyplot as plt
 
 st.title("📊 Mini Sales Dashboard")
 
-# Load sample sales data from GitHub
-url = "https://raw.githubusercontent.com/plotly/datasets/master/sales_data.csv"
+url = "https://raw.githubusercontent.com/nira1012/streamlit-test/main/sales.csv"
 df = pd.read_csv(url)
+
 
 # Show first few rows
 st.write("### Sample Data", df.head())
@@ -33,3 +33,4 @@ ax.set_ylabel("Sales")
 ax.set_title(f"Sales by Product in {region}")
 plt.xticks(rotation=45)
 st.pyplot(fig)
+
