@@ -3,3 +3,7 @@ matplotlib
 pandas
 seaborn
 numpy
+import pandas as pd
+import seaborn as sns
+
+df = sns.load_dataset("tips")  # simple sample dataset
