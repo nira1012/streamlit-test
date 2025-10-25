@@ -4,8 +4,12 @@ import matplotlib.pyplot as plt
 
 st.title("📊 Mini Sales Dashboard")
 
+import pandas as pd
+
 url = "https://raw.githubusercontent.com/nira1012/streamlit-test/main/sales.csv"
 df = pd.read_csv(url)
+st.write(df)
+
 
 
 # Show first few rows
@@ -33,5 +37,6 @@ ax.set_ylabel("Sales")
 ax.set_title(f"Sales by Product in {region}")
 plt.xticks(rotation=45)
 st.pyplot(fig)
+
 
 
